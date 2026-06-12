@@ -6,6 +6,9 @@ body {
 }
 
 h1,
+h2,
+h3,
+h4,
 ul,
 p {
   margin: 0px;
@@ -25,3 +28,7 @@ img {
   max-width: 100%;
   display: block;
 }
+
+img[src$=".jpg"] {
+  border-radius: 4px;
+} /*todo elemento que tiver um atributo src que termine com .jpg, vai receber um border-radius de 4px e img na frente para add apenas para imagens*/
