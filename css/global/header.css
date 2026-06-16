@@ -8,11 +8,8 @@
   gap: 20px;
   justify-content: space-between;
   align-items: center;
-  box-sizing: border-box; /* Ensure padding is included in the total width */
-  padding: 20px;
-  max-width: 1200px; /* Set a max width for the header */
-  margin-left: auto; /* Center the header horizontally */
-  margin-right: auto; /* Center the header horizontally */
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .header-menu {
