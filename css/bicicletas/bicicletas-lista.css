@@ -18,6 +18,10 @@
   -webkit-overflow-scrolling: touch; /*melhora a experiência de rolagem em dispositivos móveis, proporcionando uma rolagem mais suave e responsiva. Isso é especialmente útil quando a barra de rolagem horizontal é ativada devido ao uso de overflow-x: auto. Ao adicionar essa propriedade, os usuários em dispositivos móveis terão uma experiência de rolagem mais fluida e natural ao navegar pela lista de bicicletas, mesmo que o conteúdo ultrapasse a largura do contêiner. */
 }
 
+#bicicleta .bicicletas-lista ul {
+  padding: 0px 0px 20px 0px;
+}
+
 .bicicletas-lista li {
   flex: 1;
   min-width: 280px;
